@@ -1,12 +1,12 @@
 import React from 'react'
-import Sidebar from './Sidebar'
+import Description from './Description'
 // import './sidebar.css'
 
 export default {
-  title: 'Tailwindui/Sidebar',
-  component: Sidebar
+  title: 'Tailwindui/Description',
+  component: Description
 }
 
 // export const Small = () => <Sidebar size='small' placeholder='Small size' />
-export const Medium = () => <Sidebar size='medium' placeholder='Medium size' />
+export const Medium = () => <Description size='medium' />
 // export const Large = () => <Sidebar size='large' placeholder='Large size' />

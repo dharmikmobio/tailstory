@@ -1,12 +1,13 @@
+
 import React from 'react'
-import Sidebar from './Sidebar'
+import SectionHeadings from './SectionHeadings'
 // import './sidebar.css'
 
 export default {
-  title: 'Tailwindui/Sidebar',
-  component: Sidebar
+  title: 'Tailwindui/SectionHeadings',
+  component: SectionHeadings
 }
 
 // export const Small = () => <Sidebar size='small' placeholder='Small size' />
-export const Medium = () => <Sidebar size='medium' placeholder='Medium size' />
+export const Medium = () => <SectionHeadings size='medium' placeholder='Medium size' />
 // export const Large = () => <Sidebar size='large' placeholder='Large size' />
